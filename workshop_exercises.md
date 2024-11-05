@@ -1,3 +1,22 @@
+# Setup
+
+## Inloggen
+- Ga naar [https://replit.com](https://replit.com "https://replit.com")
+- Druk op **Sign up for free**
+- Druk op **Continue with Google**, kies je schoolaccount
+
+## Extension toevoegen
+- Ga naar [https://replit.com/extension/@replit/88d1957f-e5f9-4bbe-8b56-60edc458561a](https://replit.com/extension/@replit/88d1957f-e5f9-4bbe-8b56-60edc458561a)
+- Druk op **Activate extension for your account**
+- Druk op **Accept and activate**
+
+## Project aanmaken
+- Druk op **Create Repl** - Ga naar **Import from Github** - **From URL**
+- Plak daar [https://github.com/emiel04/rest-workshop-jozefienen](https://github.com/emiel04/rest-workshop-jozefienen "https://github.com/emiel04/rest-workshop-jozefienen")
+- Druk rechtsonder op **Import from GitHub**
+- Druk linksonder op **Confirm and close**
+
+
 # Oefening 1: Geef je Eigen Naam Terug (GET)
 
 **Doel**: Maak een endpoint die je eigen naam teruggeeft op de endpoint `/name`.
