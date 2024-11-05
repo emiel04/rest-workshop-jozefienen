@@ -60,9 +60,9 @@ app.delete("/profile", (req, res) => {
 
 /* -------------------------------------------------------------------- */
 
-app.get("/", (req, res => {
+app.get("/", (req, res) => {
   res.send("Welkom! Het is nu " + new Date().toLocaleTimeString('nl-NL', { timeZone: 'Europe/Brussels' }));
-}))
+});
 
 app.listen(3000, () => {
   console.log("Express server initialized on port 3000");
