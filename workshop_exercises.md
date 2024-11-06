@@ -12,10 +12,18 @@
 
 ## Project aanmaken
 - Druk op **Create Repl** - Ga naar **Import from Github** - **From URL**
-- Plak daar [https://github.com/emiel04/rest-workshop-jozefienen](https://github.com/emiel04/rest-workshop-jozefienen "https://github.com/emiel04/rest-workshop-jozefienen")
+- Plak daar [https://github.com/emiel04/rest-workshop-jozefienen](https://github.com/emiel04/rest-workshop-jozefienen)
 - Druk rechtsonder op **Import from GitHub**
 - Druk linksonder op **Confirm and close**
 
+## Last step
+- Druk op het plusje </br>
+![Plusje](https://i.imgur.com/zemnHA4.png)
+- Selecteer API Request Tester </br>
+![image](https://github.com/user-attachments/assets/5c58811d-c01c-4f82-815e-75e9047d341e)
+- Druk op de 3 puntjes </br>
+![image](https://github.com/user-attachments/assets/593f04a1-985c-43a8-b7ac-92fbc1458e0e)
+- Selecteer API Request Tester -> Refresh
 
 # Oefening 1: Geef je Eigen Naam Terug (GET)
 
