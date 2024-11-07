@@ -96,17 +96,17 @@ const myList = ["appel", "peer", "banaan"];
 **Doel**: Implementeer een DELETE-verzoek om alle instanties van een naam uit de lijst te verwijderen.
 
 **Setup**:
-- Maak een DELETE-endpoint waarbij je een bestaande naam meegeeft in de body, waarmee na uitvoering de naam wordt verwijderd.
+- Maak een DELETE-endpoint waarbij je een bestaande naam meegeeft in de path parameter, waarmee na uitvoering de naam wordt verwijderd.
 
 - Je kan de helper-functie `removeFromArrayByValue` gebruiken om iets te verwijderen uit een array. Bijvoorbeeld:
 ```js
-removeFromArrayByValue("Appel")
+removeFromArrayByValue(mijnArray,"Appel")
 ```
-- Opgelet: Nu zal je een route argument moeten gebruiken. Je kan hieraan aan de hand van `req.params.name`.
+- Opgelet: Nu zal je een route argument moeten gebruiken. Je kan hieraan aan de hand van `req.params.<argument, in dit geval name>`.
 
 **Test**:
 - Om namen te verwijderen, stuur een DELETE-verzoek naar `/names/<JouwNaam>`.
-- Check hierna nog eens de GET `/names` endpoint en kijk of je naam inderdaad is verwijderd.
+- Check hierna nog eens de GET `/names` endpoint en kijk of de naam inderdaad is verwijderd.
 
 **Error handling**:
 - Indien de naam niet in de lijst zit, geef de error "Naam niet gevonden" terug met status code 404.
@@ -159,6 +159,7 @@ removeFromArrayByValue("Appel")
   "age": 25
 }
 ```
+
 
 ---
 
